@@ -121,6 +121,7 @@ feed:
   icon: images/rss.svg
   autodiscovery: true
 
+# Giscus comment system
 giscus:
   enable: true
   repo: srcres258/srcres-blog-comments
