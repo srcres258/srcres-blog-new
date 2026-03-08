@@ -8,7 +8,9 @@ subtitle: 'srcres258'
 description: 'Do one thing and do it well.'
 keywords:
 author: 吐哺
-language: zh-CN
+language:
+- zh-CN
+- en
 timezone: 'Asia/Shanghai'
 
 # URL
