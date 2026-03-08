@@ -139,6 +139,6 @@ giscus:
   # Available values: en | zh-CN
   lang: zh-CN
   # Place the comment box above the comments
-  input_position: bottom
+  input_position: top
   # Load the comments lazily
   loading: lazy
