@@ -1,5 +1,5 @@
 ---
-title: kysx-djwqx
+title: 常用等价无穷小收集
 date: 2026-03-21 10:21:28
 tags: [考研, 数学, 知识点]
 lang: zh-CN
