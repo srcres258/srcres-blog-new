@@ -70,4 +70,50 @@ $ 1 - \sqrt{1 - x ^ 2} \sim \frac{1}{2}x^2 $
 
 # 积分公式
 
-TODO
+$ \int x^\mu \mathrm dx = \frac{1}{\mu+1}x^{\mu+1}+C $
+
+$ \int \frac{1}{\sqrt{x}}\mathrm dx=2\sqrt{x}+C $
+
+$ \int\frac{\mathrm df(x)}{\sqrt{f(x)}}=2f(x)+C $
+
+$ \int\mathrm e^x\mathrm dx=\mathrm e^x+C $
+
+$ \int a^x\mathrm dx=\frac{ax}{\ln a}+C $
+
+$ \int \frac{1}{x}\mathrm dx=\ln\left|x\right|+C $
+
+$ \int\sin x\mathrm dx=-\cos x+C $
+
+$ \int\cos x\mathrm dx=\sin x+C $
+
+$ \int\tan x\mathrm dx=-\ln\left|\cos x\right|+C $
+
+$ \int\cot x\mathrm dx=\int\frac{\cos x}{\sin x}\mathrm dx=\int\frac{\mathrm d\sin x}{\sin x}=\ln\left|\sin x\right|+C $
+
+$ \int\sec^2 x\mathrm dx=\tan x+C $
+
+$ \int\csc^2 x\mathrm dx=-\cot x+C $
+
+$ \int\frac{\mathrm dx}{\sqrt{1-x^2}}=\arcsin x+C $
+
+$ \int\frac{\mathrm dx}{1+x^2}=\arctan x+C $
+
+$ \int\sec x\mathrm dx=\ln\left|\sec x+\tan x\right|+C $
+
+$ \int\frac{1}{x^2+a^2}\mathrm dx=\frac{1}{a}\arctan\frac{x}{a}+C $
+
+$ \int\frac{1}{\sqrt{x^2\pm a^2}}\mathrm dx=\ln\left|x+\sqrt{x^2\pm a^2}\right|+C $
+
+$ \int\frac{1}{\sqrt{a^2-x^2}}\mathrm dx=\arcsin\frac{x}{a}+C $
+
+$ \int\frac{1}{a^2-x^2}\mathrm dx=\frac{1}{2a}\ln\left|\frac{a-x}{a+x}\right|+C $
+
+$ \int\frac{1}{1+\mathrm e^x}\mathrm dx=x-\ln(1+\mathrm e^x)+C $
+
+$ \int\sqrt{x^2+a^2}\mathrm dx=\frac{x}{2}\sqrt{x^2+a^2}+\frac{a^2}{2}\ln\left|x+\sqrt{x^2+a^2}\right|+C $
+
+$ \int\sqrt{x^2-a^2}\mathrm dx=\frac{x}{2}\sqrt{x^2-a^2}-\frac{a^2}{2}\ln\left|x+\sqrt{x^2+a^2}\right|+C $
+
+$ \int\sqrt{a^2-x^2}\mathrm dx=\frac{x}{2}\sqrt{a^2-x^2}+\frac{a^2}{2}\arcsin\frac{x}{a}+C $
+
+$ \int\sec^3 x\mathrm dx=\frac{1}{2}\sec x\tan x+\frac{1}{2}\left|\sec x+\tan x\right|+C $
