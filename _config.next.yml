@@ -265,8 +265,14 @@ post_meta:
 # Post wordcount display settings
 # Dependencies: https://github.com/next-theme/hexo-word-counter
 symbols_count_time:
+  enable: true
   separated_meta: true
   item_text_total: false
+  symbols: "字数"
+  time: "阅读时长"
+  total_symbols: true
+  total_time: true
+  wpm: 275
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
