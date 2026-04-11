@@ -108,6 +108,9 @@ EOF
             # Copy newly generated static files from source repo public/.
             cp -a "$WORKSPACE/public/." .
 
+            git config user.name "srcres258"
+            git config user.email "src.res.211@gmail.com"
+
             git add -A
 
             if git diff --cached --quiet; then
